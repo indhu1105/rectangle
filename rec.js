@@ -1,9 +1,6 @@
-let length = +prompt("enter the length");
-        let width = +prompt("enter the width");
-        let result;
+function area(length, width) {
+  let result = length * width;
+  return result;
+}
 
-        function area() {
-          result = length * width;
-          console.log(result);
-          return result;
-        }
+module.exports = area;
